@@ -1,8 +1,14 @@
 import Carousel from "./components/Carousel";
+import Navbar from "./components/Navbar";
 import "./App.css";
 
 function App() {
-  return <Carousel />;
+  return (
+    <>
+      <Navbar />
+      <Carousel />
+    </>
+  );
 }
 
 export default App;
